@@ -65,7 +65,7 @@ class SearchPage extends Component {
               type='text'
               placeholder='Search by title or author'
               value={query}
-              onChange={(event) => this.updateQuery(event.target.value)} 
+              onChange={(event) => this.updateQuery(event.target.value)}
             />
           </div>
         </div>
@@ -81,8 +81,6 @@ class SearchPage extends Component {
                   />
                 </li>
               )) : ''}
-
-
           </ol>
         </div>
       </div>
